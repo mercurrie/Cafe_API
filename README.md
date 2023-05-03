@@ -33,10 +33,7 @@ This is a Flask-based API that manages a database of cafes, allowing users to pe
 
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](https://github.com/yourusername/flask-cafe-api/blob/main/LICENSE).
-Remember to replace yourusername in the license section with your GitHub username.
 
 
 
