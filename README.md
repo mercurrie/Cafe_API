@@ -22,10 +22,10 @@ Copy code: python app.py
 This will start the Flask development server and make the API available at http://localhost:5000/.
 
 API Routes
-GET /: returns the homepage of the web application
-GET /all: returns all the cafes in the database
-GET /random: returns a random cafe from the database
-GET /search?loc=<location>: returns the cafe at the specified location
+*GET /: returns the homepage of the web application
+*GET /all: returns all the cafes in the database
+*GET /random: returns a random cafe from the database
+*GET /search?loc=<location>: returns the cafe at the specified location
 GET /update-price/<cafe_id>?new_price=<new_price>: updates the coffee price of the cafe with the given ID
 POST /add: adds a new cafe to the database
 DELETE /report-closed/<cafe_id>?api-key=<api_key>: deletes the cafe with the given ID, if the correct API key is provided
