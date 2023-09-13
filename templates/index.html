@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Cafe&Wifi API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to the Cafe & Wifi API</h1>
+    <h2>API Endpoints:</h2>
+    <ul>
+        <li><strong>GET /</strong> - displays the index page</li>
+        <li><strong>GET /random</strong> - returns a random cafe from the database</li>
+        <li><strong>GET /all</strong> - returns a list of all cafes in the database</li>
+        <li><strong>GET /search?loc=&lt;location&gt;</strong> - returns a cafe with the specified location</li>
+        <li><strong>POST /add</strong> - adds a new cafe to the database</li>
+        <li><strong>PATCH /update-price/&lt;int:cafe_id&gt;</strong> - updates the price of a cafe with the specified ID</li>
+        <li><strong>DELETE /report-closed/&lt;int:cafe_id&gt;?api-key=&lt;api_key&gt;</strong> - deletes a cafe with the specified ID, if the correct API key is provided</li>
+    </ul>
 </body>
 </html>
